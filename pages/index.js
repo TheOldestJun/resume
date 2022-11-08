@@ -36,7 +36,7 @@ export default function Home() {
         name={lang[local]["name"]}
         title={lang[local]["title"]}
       />
-      <div className='py-2 flex'>
+      <div className='py-2 flex gap-2'>
         <div className='w-2/3'>
           <About
             about={lang[local]["about"]}
@@ -52,7 +52,7 @@ export default function Home() {
           />
         </div>
         <div className='w-1/3'>
-          <Contacts />
+          <Contacts address={lang[local]["address"]} />
         </div>
       </div>
     </div>

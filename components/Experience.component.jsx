@@ -8,7 +8,7 @@ const Experience = ({ experience, experienceTable }) => {
           src='/person-digging-solid.svg'
           width={20}
           height={20}
-          alt='Education'
+          alt='Experience'
         />
         {experience}
       </div>
@@ -19,7 +19,7 @@ const Experience = ({ experience, experienceTable }) => {
             {experienceTable.webdev}
             <p>2020-...</p>
           </div>
-          <p className='ml-9'>{experienceTable.webdevDesc}</p>
+          <p className='mx-9'>{experienceTable.webdevDesc}</p>
         </div>
 
         <div className='eduTable'>
@@ -27,7 +27,7 @@ const Experience = ({ experience, experienceTable }) => {
             {experienceTable.scm}
             <p>2010-...</p>
           </div>
-          <p className='ml-9'>{experienceTable.scmDesc}</p>
+          <p className='mx-9'>{experienceTable.scmDesc}</p>
         </div>
       </div>
     </div>

@@ -14,21 +14,24 @@ const Education = ({ education, educationTable }) => {
       </div>
       <hr />
       <div className='text-md'>
-        <div className='eduTable'>
-          <div className='container flex justify-between my-3'>
-            {educationTable.master}
-            <p>2008-2010</p>
+        <a href='https://goo.gl/maps/4A4URTbQSeFtvmX17' target='blank'>
+          <div className='eduTable'>
+            <div className='container flex justify-between my-3'>
+              {educationTable.master}
+              <p>2008-2010</p>
+            </div>
+            <p className='ml-9'>{educationTable.university}</p>
           </div>
-          <p className='ml-9'>{educationTable.university}</p>
-        </div>
-
-        <div className='eduTable'>
-          <div className='container flex justify-between my-3'>
-            {educationTable.bachelor}
-            <p>2002-2008</p>
+        </a>
+        <a href='https://goo.gl/maps/4A4URTbQSeFtvmX17' target='blank'>
+          <div className='eduTable'>
+            <div className='container flex justify-between my-3'>
+              {educationTable.bachelor}
+              <p>2002-2008</p>
+            </div>
+            <p className='ml-9'>{educationTable.university}</p>
           </div>
-          <p className='ml-9'>{educationTable.university}</p>
-        </div>
+        </a>
       </div>
     </div>
   );
