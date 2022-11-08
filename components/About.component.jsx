@@ -13,7 +13,7 @@ const About = ({ about, aboutText }) => {
         {about}
       </div>
       <hr />
-      <div className='text-md'>{aboutText}</div>
+      <div className='text-md leading-8'>{aboutText}</div>
     </div>
   );
 };

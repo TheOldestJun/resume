@@ -17,11 +17,9 @@ export const lang = {
       webdev: "FULL STACK WEB DEVELOPER",
       webdevDesc:
         "Pet projects for education purposes only. Don't have any commercial experience. One full project written with no cost for my friends. See Outlay project in my GitHub profile. Nowadays writing Supply Chain Management System for my current job.",
-      webdevYears: "2020 - ...",
       scm: "SUPPLY CHAIN MANAGER",
       scmDesc:
         "Carrying out a full cycle of supply an enterprise for 300 people. From applications to delivery of goods and materials. Also coworking as an anykey.",
-      scmYears: "2010 - ...",
     },
     contacts: "CONTACTS",
     address: "Horishi Plavni, Poltava region, Ukraine",
@@ -73,7 +71,7 @@ export const lang = {
       webdev: "FULL STACK WEB разработчик",
       webdevDesc:
         "Пет проекты только для образовательных целей. Полноценного коммерческого опыта у меня нет. Один полный проект, написанный бесплатно для моих друзей. Смотрите проект Outlay в моем профиле GitHub. В настоящее время пишу систему управления цепочками поставок для моей текущей работы.",
-      scm: "SUPPLY CHAIN MANAGER",
+      scm: "Инженер по снабжению и сбыту",
       scmDesc:
         "Осуществляю полный цикл снабжения предприятия на 300 человек. От заявок до доставки ТМЦ. Также подрабатываю как anykey.",
     },

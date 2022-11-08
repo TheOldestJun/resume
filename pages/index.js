@@ -1,5 +1,12 @@
 import Image from "next/image";
-import { Title, Header, About, Education, Contacts } from "../components/";
+import {
+  Title,
+  Header,
+  About,
+  Education,
+  Contacts,
+  Experience,
+} from "../components/";
 import { useSelector } from "react-redux";
 import { lang } from "../constants/localization";
 
@@ -38,6 +45,10 @@ export default function Home() {
           <Education
             education={lang[local]["education"]}
             educationTable={lang[local]["educationTable"]}
+          />
+          <Experience
+            experience={lang[local]["experience"]}
+            experienceTable={lang[local]["experienceTable"]}
           />
         </div>
         <div className='w-1/3'>
