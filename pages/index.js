@@ -1,10 +1,12 @@
-import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { Title, Header, About, Education, Contacts } from "../components/";
+import { useSelector } from "react-redux";
+import { lang } from "../constants/localization";
 
 export default function Home() {
+  const local = useSelector((state) => state.lang.lang.payload);
   return (
-    <>
+    <div className='container flex flex-col'>
       <Image
         src='/background.png'
         width={1200}
@@ -20,6 +22,28 @@ export default function Home() {
           opacity: "90%",
         }}
       />
-    </>
+      <Header welcome={lang[local]["welcome"]} />
+      <main className='container'></main>
+      <Title
+        className='mx-5'
+        name={lang[local]["name"]}
+        title={lang[local]["title"]}
+      />
+      <div className='py-2 flex'>
+        <div className='w-2/3'>
+          <About
+            about={lang[local]["about"]}
+            aboutText={lang[local]["aboutText"]}
+          />
+          <Education
+            education={lang[local]["education"]}
+            educationTable={lang[local]["educationTable"]}
+          />
+        </div>
+        <div className='w-1/3'>
+          <Contacts />
+        </div>
+      </div>
+    </div>
   );
 }
