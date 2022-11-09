@@ -11,3 +11,15 @@
 .eduTable {
   border-left: 2px solid yellow;
 }
+
+progress::-webkit-progress-value {
+  background: white;
+}
+
+.pr {
+  display: block;
+  border-radius: 6px;
+  width: 100%;
+  height: 5px;
+  border: 1px solid #aaa;
+}

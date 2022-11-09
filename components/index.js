@@ -4,5 +4,6 @@ import Title from "./Title.component";
 import About from "./About.component";
 import Education from "./Education.component";
 import Experience from "./Experience.component";
+import Skills from "./Skills.component";
 
-export { Contacts, Header, Title, About, Education, Experience };
+export { Contacts, Header, Title, About, Education, Experience, Skills };

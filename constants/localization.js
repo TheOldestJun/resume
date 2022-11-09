@@ -23,9 +23,21 @@ export const lang = {
     },
     contacts: "CONTACTS",
     address: "Horishi Plavni, Poltava region, Ukraine",
-    profSkills: "PROFESSIONAL SKILLS",
+    skills: "PROFESSIONAL SKILLS",
+    skillsProf: {
+      beginner: "Beginner",
+      elementary: "Elementary",
+      intermediate: "Intermediate",
+      upperIntermediate: "Upper Intermediate",
+      advanced: "Advanced",
+      master: "Master",
+      native: "Native",
+    },
     certificates: "SERTIFICATES",
   },
+  //
+  //UA Localization
+  //
   UA: {
     welcome: "Оберіть мову спілкування",
     name: "Станіслав Пуха",
@@ -50,9 +62,21 @@ export const lang = {
     },
     contacts: "Контакти",
     address: "Горішні Плавні, Полтавська обл., Украйна",
-    profSkills: "Профессійні навички",
+    skills: "Профессійні навички",
+    skillsProf: {
+      beginner: "Початковий",
+      elementary: "Eлементарний",
+      intermediate: "Середный",
+      upperIntermediate: "Upper Intermediate",
+      advanced: "Advanced",
+      master: "Master",
+      native: "Native",
+    },
     certificates: "Сертифікати",
   },
+  //
+  //RU Localization
+  //
   RU: {
     welcome: "Выберите язык общения",
     name: "Станислав Пуха",
@@ -77,7 +101,16 @@ export const lang = {
     },
     contacts: "Контакты",
     address: "Горишние Плавни, Полтавская обл., Украина",
-    profSkills: "Профессиональные навыки",
+    skills: "Профессиональные навыки",
+    skillsProf: {
+      beginner: "Beginner",
+      elementary: "Elementary",
+      intermediate: "Intermediate",
+      upperIntermediate: "Upper Intermediate",
+      advanced: "Advanced",
+      master: "Master",
+      native: "Native",
+    },
     certificates: "Сертификаты",
   },
 };

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Contact from "./Contact.component";
 
-const Contacts = ({ address }) => {
+const Contacts = ({ address, contacts }) => {
   return (
     <div className='py-2 flex flex-col items-center gap-4'>
       <Image
@@ -12,6 +12,16 @@ const Contacts = ({ address }) => {
         className='rounded-full'
       />
       <div className='container text-white border-2 backdrop-blur-sm leading-8'>
+        <div className='text-lg font-bold flex gap-2'>
+          <Image
+            src='/id-card-clip-solid.svg'
+            width={20}
+            height={20}
+            alt='About me'
+          />
+          {contacts}
+        </div>
+        <hr />
         <Contact
           icon='/map-location-solid.svg'
           link='https://goo.gl/maps/9ABa4ELESTTYD7YM9'

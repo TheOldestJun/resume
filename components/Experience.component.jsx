@@ -21,14 +21,15 @@ const Experience = ({ experience, experienceTable }) => {
           </div>
           <p className='mx-9'>{experienceTable.webdevDesc}</p>
         </div>
-
-        <div className='eduTable'>
-          <div className='container flex justify-between my-3'>
-            {experienceTable.scm}
-            <p>2010-...</p>
+        <a href='https://goo.gl/maps/ZobeiUi8f2W98VwS9' target='blank'>
+          <div className='eduTable'>
+            <div className='container flex justify-between my-3'>
+              {experienceTable.scm}
+              <p>2010-...</p>
+            </div>
+            <p className='mx-9'>{experienceTable.scmDesc}</p>
           </div>
-          <p className='mx-9'>{experienceTable.scmDesc}</p>
-        </div>
+        </a>
       </div>
     </div>
   );

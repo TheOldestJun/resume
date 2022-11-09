@@ -6,6 +6,7 @@ import {
   Education,
   Contacts,
   Experience,
+  Skills,
 } from "../components/";
 import { useSelector } from "react-redux";
 import { lang } from "../constants/localization";
@@ -52,7 +53,11 @@ export default function Home() {
           />
         </div>
         <div className='w-1/3'>
-          <Contacts address={lang[local]["address"]} />
+          <Contacts
+            address={lang[local]["address"]}
+            contacts={lang[local]["contacts"]}
+          />
+          <Skills profSkills={lang[local]["skills"]} />
         </div>
       </div>
     </div>
