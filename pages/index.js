@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className='container flex flex-col'>
       <Image
-        src='/background.png'
+        src='/pexels.jpg'
         width={1200}
         height={700}
         alt='background'
@@ -57,7 +57,10 @@ export default function Home() {
             address={lang[local]["address"]}
             contacts={lang[local]["contacts"]}
           />
-          <Skills profSkills={lang[local]["skills"]} />
+          <Skills
+            skills={lang[local]["skills"]}
+            skillsProf={lang[local]["skillsProf"]}
+          />
         </div>
       </div>
     </div>
