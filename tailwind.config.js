@@ -9,7 +9,7 @@ module.exports = {
     screens: {
       lg: { max: "992px" },
       md: { max: "768px" },
-      sm: { max: "480px" },
+      sm: { max: "460px" },
     },
     container: {
       padding: "20px",

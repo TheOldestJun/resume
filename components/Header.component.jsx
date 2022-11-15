@@ -4,10 +4,11 @@ import { changeLang } from "../store/langSlice";
 
 const Header = ({ welcome }) => {
   const dispatch = useDispatch();
+
   return (
     <header className='relative py-2'>
       <div className='container mx-auto h-8 border-2 border-solid border-white backdrop-blur'>
-        <nav className='flex justify-between items-center text-white  '>
+        <nav className='flex items-center justify-between text-white  '>
           <Image
             src='/resume.svg'
             width={30}
@@ -21,7 +22,7 @@ const Header = ({ welcome }) => {
               <a
                 href='#'
                 onClick={() => dispatch(changeLang("EN"))}
-                className='hover:text-amber-300 transition-colors'
+                className='transition-colors hover:text-amber-300'
               >
                 EN
               </a>
@@ -30,7 +31,7 @@ const Header = ({ welcome }) => {
               <a
                 href='#'
                 onClick={() => dispatch(changeLang("UA"))}
-                className='hover:text-amber-300 transition-colors'
+                className='transition-colors hover:text-amber-300'
               >
                 UA
               </a>
@@ -39,13 +40,13 @@ const Header = ({ welcome }) => {
               <a
                 href='#'
                 onClick={() => dispatch(changeLang("RU"))}
-                className='hover:text-amber-300 transition-colors'
+                className='transition-colors hover:text-amber-300'
               >
                 RU
               </a>
             </li>
           </ul>
-          <ul className='hidden absolute left-6 right-6 top-14 backdrop-blur-sm border-2 rounded-lg border-white flex-col items-center'>
+          <ul className='absolute left-6 right-6 top-14 hidden flex-col items-center rounded-lg border-2 border-white backdrop-blur-sm'>
             <li>
               <a href='#' className='block py-4'>
                 EN
