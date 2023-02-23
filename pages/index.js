@@ -30,15 +30,15 @@ export default function Home() {
                     opacity: "90%",
                 }}
             />
-            <div className='container flex flex-col md:hidden'>
+            <div className='container flex flex-col gap-2 md:hidden'>
                 <Header welcome={lang[local]["welcome"]} />
                 <Title
                     className='mx-5'
                     name={lang[local]["name"]}
                     title={lang[local]["title"]}
                 />
-                <div className='flex gap-2 py-2'>
-                    <div className='flex w-2/3 flex-col justify-end'>
+                <div className='flex gap-2'>
+                    <div className='grid-flow-rows grid w-2/3 justify-items-stretch gap-2'>
                         <About
                             about={lang[local]["about"]}
                             aboutText={lang[local]["aboutText"]}
@@ -66,7 +66,6 @@ export default function Home() {
             </div>
             <div className='hidden gap-2 md:container md:flex md:flex-col'>
                 <Header welcome={lang[local]["welcome"]} />
-                <main className='container'></main>
                 <Title
                     name={lang[local]["name"]}
                     title={lang[local]["title"]}
